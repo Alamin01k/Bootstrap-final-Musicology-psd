@@ -1,0 +1,310 @@
+@font-face {
+	src: url(../font/Montserrat/Montserrat-Regular.ttf);
+	font-family: Montserrat-Regular;
+}
+@font-face {
+	src: url(../font/Oswald/Oswald-Regular.ttf);
+	font-family: Oswald-Regular;
+}
+@font-face {
+	src: url(../font/Oswald/Oswald-SemiBold.ttf);
+	font-family: Oswald-SemiBold;
+}
+@font-face {
+	src: url(../font/Oswald/Oswald-Bold.ttf);
+	font-family: Oswald-Bold;
+}
+/* common start */
+body{
+	font-family: Montserrat-Regular;
+	font-weight: 400;
+	font-size: 29px;
+	color: #fff;
+}
+/* common eend */
+
+/* header start */
+header{
+	background-color: #303030;
+}
+/* menu */
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	padding-right: 50px !important;
+	font-family: Oswald-Regular;
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/* search start */
+.dd_a{
+	border: none;
+	color: #8e8e8e;
+}
+.dd_a:hover{
+	color: #e8631c !important;
+}
+.dd_a i{
+	font-size: 20px;
+	color: #fff;
+}
+.dd_a::after{
+	display: none;
+}
+.dd_m[data-bs-popper] {
+    top: 68px;
+    left: -260px;
+    margin-top: 0;
+}
+.dd_m {
+	padding: 10px;
+    width: 290px;
+    border: 1px solid;
+    border-radius: 0;
+}
+.dd_input{
+}
+.dd_input:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+.dd_btn{}
+/* header end */
+
+/* banner start */
+.banner{
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.b_item{
+	margin-top: 315px;
+	margin-bottom: 80px;
+}
+.b_item h1{
+	font-family: Oswald-Regular;
+    font-weight: 400;
+    font-size: 120px;
+}
+.b_item p {
+    margin: 35px 0 40px;
+}
+.b_btn{
+	text-transform: uppercase;
+    background-color: #e8631c;
+}
+.c_btn{
+	padding: 0;
+	border: 0;
+	width: 320px;
+	height: 60px;
+	font-family: Oswald-Regular;
+	font-size: 25px;
+	font-weight: 400;
+	border-radius: 5px;
+	color: #fff;
+	transition: 0.3s;
+}
+.c_btn:hover{
+	color: #303030 !important;
+	background-color: #fff !important;
+}
+/* banner end */
+/* tour start */
+.tour, .subscribe{
+	padding: 100px 0 100px;
+	background-color: #e8631c;
+}
+/* first row */
+.t_item{
+
+}
+.t_h1{
+	margin-bottom: 45px;
+	font-family: Oswald-Bold;
+	font-weight: 700;
+	font-size: 70px;
+}
+.t_p{}
+
+/* second row */
+.s_item{
+	margin-top: 75px;
+	padding: 0 25px;
+}
+.s_img{}
+.hp{
+	padding: 35px 0 30px;
+	background-color: #303030;
+}
+.s_h2{
+	margin-bottom: 15px;
+	font-family: Oswald-Regular;
+	font-weight: 400;
+}
+.s_p{
+	font-size: 16px;
+}
+/* tour end */
+/* pricing start */
+.pricing, .statistic, footer{
+	padding: 100px 0 100px;
+	background-color: #303030;
+}
+
+/* second row */
+.s_item2{
+	background-color: #e8631c;
+}
+.s_img2 {
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+.hp2{
+	background-color: #e8631c;
+}
+.s_h22{
+	font-family: Oswald-SemiBold;
+	font-weight: 600;
+}
+
+.s_p2{
+	margin-bottom: 20px;
+}
+.p_btn{
+	padding: 0;
+	border: 0;
+	width: 320px;
+	height: 60px;
+	font-family: Oswald-Regular;
+	font-size: 25px;
+	font-weight: 400;
+	border-radius: 5px;
+	background-color: #303030 !important;
+	color: #fff;
+}
+/* pricing end */
+
+/* dance start */
+.dance{
+	background-color: #e8631c;
+}
+.d1_img{
+	width: 100%;
+}
+.d_item{
+	padding: 0 50px;
+}
+.t_p{
+	margin-bottom: 45px;
+}
+.p_btn:hover{
+	color: #303030 !important;
+	background-color: #fff !important;
+}
+/* dance end */
+
+/* statistic start */
+.statistic{
+
+}
+.club{
+	margin-top: 80px;
+}
+.c_h2{
+	margin-bottom: 15px;
+    font-family: Oswald-Bold;
+    font-weight: 700;
+    font-size: 60px;
+}
+.c_p{
+	font-size: 30px;
+}
+/* statistic end */
+/* herbert start */
+.herbert{
+	padding-top: 320px;
+	padding-bottom: 320px;
+	background-image: url('../images/3496226.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* background-color: rgba(0, 0, 0, 1.0); */
+
+}
+.her {
+    margin: 50px 0;
+}
+.h_h1{
+	margin-top: 60px;
+}
+/* herbert end */
+
+/* subscribe start */
+.c_form{
+	margin-top: 50px;
+}
+.s_input{
+	padding: 10px;
+	border-color: transparent;
+	border-radius: 5px 0 0 5px;
+}
+.s_input:focus{
+	box-shadow: none;
+}
+
+.s_btn {
+    padding: 7px 0px 8px 0px;
+    width: 100%;
+    border: 0;
+    font-family: Oswald-SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0 5px 5px 0;
+    background-color: #303030;
+    color: #fff;
+    transition: 0.3s;
+}
+.s_btn:hover{
+	color: #303030 !important;
+	background-color: #fff !important;
+}
+/* subscribe end */
+
+/* footer start */
+.f_item, .f_item2 p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.icon ul li{
+
+}
+.icon ul li a{
+    font-size: 30px;
+    color: #fff;
+}
+.icon ul li a i{
+	margin: 20px 10px 0 0;
+}
+.f_h2{
+	margin-bottom: 20px;
+	font-family: Oswald-Regular;
+	font-size: 25px;
+	font-weight: 400;
+}
+.f_item2{
+
+}
+.f_item2 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/* footer end */

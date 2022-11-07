@@ -1,0 +1,363 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+	/* header start */
+	.menu ul li a {
+    	padding-bottom: 0 !important;
+    	font-size: 16px;
+	}
+	/* search start */
+	.dd_a {
+    	padding-left: 0;
+	}
+	.dd_a i {
+    	font-size: 16px;
+ 	}
+	.dd_m[data-bs-popper] {
+    	top: 51px;
+    	left: 0px;
+	}
+	.dd_m {
+    	padding: 5px 5px;
+    	width: 240px;
+	}
+	.dd_btn {
+    	padding-left: 0;
+	}
+	/* banner start */
+	.b_item {
+		text-align: center;
+	    margin-top: 50px;
+	    margin-bottom: 50px;
+	}
+	.b_item h1 {
+	    font-size: 30px;
+	}
+	.b_item p {
+    	font-size: 16px;
+    	margin: 20px 0 25px;
+	}
+	.c_btn{
+		padding: 0 0 3px 0;
+	    width: 130px;
+	    height: 30px;
+	    font-size: 16px;
+	}
+	/* tour start */
+	.tour, .subscribe{
+    	padding: 50px 0 50px;
+	}
+	.t_h1 {
+    	margin-bottom: 20px;
+    	font-size: 25px;
+	}
+	.t_p {
+    	font-size: 16px;
+	}
+
+	.s_item {
+    	margin-top: 50px;
+	}
+	.s_img {
+    	width: 100%;
+	}
+	.hp {
+    	padding: 35px 15px 30px;
+	}
+	/* pricing start */
+	.pricing, .statistic, footer{
+    	padding: 50px 0 50px;
+	}
+	.s_img2 {
+    	width: 135px;
+	}
+	.p_btn {
+    	font-size: 16px;
+    	width: 217px;
+    	height: 42px;
+	}
+	/* dance start */
+	.d_item {
+    	text-align: center;
+    	padding: 30px 30px;
+	}
+	/* statistic start */
+	.statistic{
+		padding-top: 50px;
+    	padding-bottom: 40px;
+	}
+	.club {
+    	margin-top: 25px;
+	}
+	.c_h2{
+		font-size: 25px;
+	}
+	.c_p {
+	    margin-bottom: 30px;
+	    font-size: 16px;
+	    line-height: 6px;
+	}
+	/* herbert start */
+	.herbert {
+    	padding-top: 80px;
+    	padding-bottom: 80px;
+	}
+	.h_h1 {
+    	margin-top: 30px;
+	}
+	/* footer start */
+	.f_item{
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	
+	.f_item2{
+		text-align: center;
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* header start */
+	.menu ul li a {
+    	padding-bottom: 0 !important;
+    	font-size: 16px;
+	}
+	/* search start */
+	.dd_a {
+    	padding-left: 0;
+	}
+	.dd_a i {
+    	font-size: 16px;
+ 	}
+	.dd_m[data-bs-popper] {
+    	top: -5px;
+    	left: 90px;
+	}
+	.dd_m {
+    	padding: 5px 5px;
+	}
+	/* banner start */
+	.b_item {
+	    margin-top: 100px;
+	    margin-bottom: 50px;
+	}
+	.b_item h1 {
+	    font-size: 50px;
+	}
+	.b_item p {
+    	font-size: 16px;
+    	margin: 20px 0 30px;
+	}
+	.c_btn{
+		padding: 0 0 3px 0;
+	    width: 175px;
+	    height: 45px;
+	    font-size: 20px;
+	}
+	/* tour start */
+	.tour, .subscribe {
+    	padding: 50px 0 50px;
+	}
+	.t_h1 {
+    	margin-bottom: 20px;
+    	font-size: 30px;
+	}
+	.t_p {
+    	font-size: 16px;
+	}
+
+	.s_item {
+    	margin-top: 50px;
+	}
+	.s_img {
+    	width: 100%;
+	}
+	.hp {
+    	padding: 35px 15px 30px;
+	}
+	/* pricing start */
+	.pricing, .statistic, footer{
+    	padding: 50px 0 50px;
+	}
+	.s_img2 {
+    	width: 135px;
+	}
+	.p_btn {
+	    width: 245px;
+	    height: 52px;
+	    font-size: 16px;
+	}
+	/* dance start */
+	.d_item {
+    	text-align: center;
+    	padding: 50px 50px;
+	}
+	/* dance start */
+	.d_item {
+    	text-align: center;
+    	padding: 50px 50px;
+	}
+	/* statistic start */
+	.club {
+    	margin-top: 50px;
+	}
+	.c_h2{
+		font-size: 25px;
+	}
+	.c_p{
+		font-size: 16px;
+	}
+	/* herbert start */
+	.herbert {
+    	padding-top: 80px;
+    	padding-bottom: 80px;
+	}
+	.h_h1 {
+    	margin-top: 30px;
+	}
+	/* subscribe start */
+
+
+
+	/* footer start */
+	.f_item{
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.f_item2{
+		text-align: center;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* header start */
+	.menu ul li a {
+    	padding-bottom: 0 !important;
+    	font-size: 16px;
+	}
+	/* search start */
+	.dd_a {
+    	padding-left: 0;
+	}
+	.dd_a i {
+    	font-size: 16px;
+ 	}
+	.dd_m[data-bs-popper] {
+    	top: -5px;
+    	left: 90px;
+	}
+	.dd_m {
+    	padding: 5px 5px;
+	}
+	/* banner start */
+	.b_item {
+    	margin-top: 155px;
+    	margin-bottom: 60px;
+	}
+	.b_item h1 {
+	    font-size: 80px;
+	}
+	.b_item p {
+    	font-size: 16px;
+    	margin: 20px 0 30px;
+	}
+	.c_btn{
+		padding: 0 0 3px 0;
+	    width: 175px;
+	    height: 45px;
+	    font-size: 20px;
+	}
+	/* tour start */
+	.tour, .pricing, .statistic, .subscribe, footer {
+    	padding: 80px 0 80px;
+	}
+	.t_h1 {
+    	margin-bottom: 30px;
+    	font-size: 50px;
+	}
+	.t_p {
+    	font-size: 16px;
+	}
+
+	.s_item {
+    	margin-top: 55px;
+	}
+	.hp {
+    	padding: 35px 15px 30px;
+	}
+	/* pricing start */
+	.p_btn {
+	    width: 245px;
+	    height: 52px;
+	}
+
+	/* dance start */
+	.d_item {
+    	text-align: center;
+    	padding: 50px 50px;
+	}
+	/* statistic start */
+	.club {
+    	margin-top: 50px;
+	}
+	.c_h2{
+		font-size: 30px;
+	}
+	.c_p{
+		font-size: 16px;
+	}
+	/* herbert start */
+	.herbert {
+    	padding-top: 130px;
+    	padding-bottom: 130px;
+	}
+	.h_h1 {
+    	margin-top: 30px;
+	}
+	/* footer start */
+	.footer{
+		padding: 80px 0;
+	}
+	.f_item{
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.f_item2{
+		text-align: center;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* banner start */
+	.b_item {
+	    margin-top: 175px;
+	    margin-bottom: 75px;
+	}
+	/* pricing start */
+	.p_btn {
+	    width: 245px;
+	    height: 52px;
+	}
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/* banner start */
+	.b_item {
+    	margin-top: 270px;
+    }
+
+}
+
+/* Extra extra Large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	
+
+}
